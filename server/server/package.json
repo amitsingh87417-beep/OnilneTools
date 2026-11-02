@@ -1,1 +1,19 @@
-{"name":"100k-tools-universe-api","version":"1.0.0","private":true,"type":"module","scripts":{"start":"node index.js"},"dependencies":{"express":"^4.21.2"}}
+{
+  "name": "100k-tools-universe",
+  "private": true,
+  "version": "3.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "qrcode": "^1.5.3",
+    "@supabase/supabase-js": "^2.39.8"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  }
+}
